@@ -1,0 +1,31 @@
+
+
+.feature-image
+{
+  -webkit-border-radius: 130px;
+  -moz-border-radius: 130px;
+  border-radius: 130px;
+  border: 10px solid white; 
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.feature-block-container
+{
+  width:100%; 
+  text-align:center;
+}
+
+.feature-block-container i 
+{
+  *display: none;
+  display: none\0/IE8;
+}
+
+:root .feature-block-container i 
+{
+  display: block\0/IE9;;
+}
