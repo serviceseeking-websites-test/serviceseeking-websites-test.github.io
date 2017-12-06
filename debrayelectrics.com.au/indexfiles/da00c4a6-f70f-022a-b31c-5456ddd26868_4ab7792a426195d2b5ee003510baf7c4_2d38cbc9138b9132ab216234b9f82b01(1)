@@ -691,13 +691,13 @@ null
   padding-bottom: 10px;
 }
 #MOB25155aebde1.form-constructor input {
-  width: 80%;
+  width: 100%;
 }
 #MOB25155aebde1.form-constructor textarea {
-  width: 80%;
+  width: 100%;
 }
 #MOB25155aebde1.form-constructor button {
-  width: 40%;
+  width: 100%;
 }
 #MOB25155aebde1.form-constructor {
   text-align: center;
