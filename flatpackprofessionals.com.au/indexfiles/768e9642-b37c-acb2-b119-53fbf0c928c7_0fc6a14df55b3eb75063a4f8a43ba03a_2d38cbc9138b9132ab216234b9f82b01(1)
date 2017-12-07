@@ -1,0 +1,637 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,500,700);
+.breadcrumb-nav {
+  margin-top: 20px;
+}
+.navbar {
+  margin-bottom: 8px;
+}
+.navbar .brand {
+  display: none;
+  text-shadow: none;
+}
+.navbar .navbar-inner {
+  background: none;
+  background-image: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+}
+.navbar .nav > li > a {
+  color: white;
+  text-shadow: none;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.navbar .navbar-inner .nav .active > a {
+  background: #402656;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  color: white;
+}
+.navbar .navbar-inner .nav li > a:hover {
+  background: rgba(255,255,255,0.6);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  color: #07695C;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+#mb-header {
+  height: 5px;
+}
+#mb-header > div {
+  padding-bottom: 0px;
+}
+#mb-header h1 {
+  color: #eee;
+  font-weight: 300;
+  font-size: 28px;
+  margin-left: 40px;
+}
+h1 {
+  color: #0F314D;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: #0F314D;
+}
+h6 {
+  color: #07695C;
+}
+p {
+  color: #333;
+}
+#mb-content h1 {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: solid 1px #CCCCCC;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+#mb-content h2,
+#mb-content h3 {
+  font-weight: 300;
+}
+#mb-footer h1 {
+  color: #eee;
+  font-weight: 300;
+  font-size: 28px;
+  margin-left: 40px;
+}
+.footer-info {
+  background-color: #402656;
+  color: #098171;
+}
+.footer-info h6 {
+  color: white;
+}
+.footer-bottom {
+  background-image: url('http://www.flatpackprofessionals.com.au/_img?url=1a4e4cfd-f760-6cb9-0f63-51f97b6c66bc');
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#mb-footer {
+  color: #CCCCCC;
+}
+.copyright-notice {
+  padding-right: 40px;
+  padding-top: 10px;
+}
+.socialnetwork_box {
+  letter-spacing: 10px;
+}
+.highlight-box {
+  color: #005D7D;
+  text-align: center;
+}
+.highlight-box h3 {
+  font-size: 18px;
+}
+.highlight-box a {
+  font-weight: bold;
+}
+.feature-row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.featurette-container {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: solid 1px #CCCCCC;
+}
+.accordion-group .accordion-heading a {
+  padding-left: 0px;
+  text-decoration: none;
+}
+.accordion-group .accordion-heading .html {
+  display: none;
+}
+.accordion-heading a:before {
+  content: "\2212";
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  background-color: #005D7D;
+  color: #fff;
+}
+.accordion-heading .collapsed:before {
+  content: "\002b" !important;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  background-color: #005D7D;
+  color: #fff;
+}
+.blog-search {
+  text-align: right;
+  background-color: #eee;
+  background-image: url('http://www.flatpackprofessionals.com.au/_img?url=3060630e-4df0-6f70-91d9-520427ac2ea6');
+  background-repeat: repeat;
+  padding-top: 20px;
+  padding: 20px;
+}
+.blog-search form {
+  margin: 0px;
+}
+.blog-search input {
+  height: 30px;
+  border-radius: 0px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  width: 90%;
+}
+.blog-search form .btn {
+  display: none;
+}
+.blog-image {
+  margin-bottom: 20px;
+}
+.blog-body {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: solid 1px #CCCCCC;
+}
+.blog-image img {
+  width: 100%;
+}
+.portfolio span {
+  background: #005D7D;
+}
+.plan-box-row {
+  padding-top: 80px;
+  margin-top: 40px;
+  border-top: solid 1px #CCCCCC;
+}
+.company-column {
+  padding: 40px;
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+}
+@media (max-width: 767px) {
+  .nav-collapse .nav {
+    width: 100%;
+  }
+  .navbar .navbar-inner .nav .active > a {
+    padding-bottom: 0px;
+  }
+  .navbar .brand {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    padding: 0px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer-info > div {
+    padding: 20px;
+  }
+  #hero-carousel .carousel-caption {
+    background: rgba(0,0,0,0.75) !important;
+    padding-bottom: 30px !important;
+  }
+  #hero-carousel .carousel-caption h3 {
+    font-size: 26px !important;
+    line-height: 30px !important;
+  }
+  #hero-carousel .carousel-caption p {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+  .feature-row {
+    margin-top: 0px;
+  }
+  .highlight-box .content {
+    padding: 20px;
+    padding-top: 10px;
+  }
+  .navbar .navbar-inner .nav .active > a {
+    padding-bottom: 10px;
+  }
+  .feature-block {
+    margin-top: 40px;
+  }
+}
+#service-list.rich-text {
+  margin-left: 20px;
+}
+#right-wing.rich-text {
+  border-bottom: dashed 2px #EC0184;
+  margin-top: 50px;
+}
+#home-button.image img:hover {
+  content: url(http://www.flatpackprofessionals.com.au/_img?url=eab5af5d-3d37-f6ec-9cac-52b13e904a2f);
+}
+#home-button.image img {
+  float: right;
+}
+#email.contact-icons img {
+  margin-top: 25px;
+}
+#about.rich-text p {
+  width: 85%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#about.rich-text h1 {
+  margin-top: 20px;
+}
+.form form {
+  text-align: center;
+}
+.btn {
+  background: none;
+  background-color: #07695C;
+  border-radius: 0px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 0px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-shadow: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+.btn:hover {
+  background: none;
+  background-color: #07695C;
+  border-radius: 0px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 0px;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-shadow: none;
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px black;
+}
+.contactus-form input[type=text],
+.contactus-form textarea {
+  width: 95%;
+  border-radius: 0px;
+  border: none;
+  background-color: #F6F8F9;
+}
+.contactus-form input[type=text] {
+  height: 40px;
+}
+.form input.btn {
+  margin-bottom: 40px;
+}
+.google-map-canvas > div {
+  width: 100% !important;
+}
+.google-map-canvas img {
+  max-width: none !important;
+}
+.rich-text {
+  color: #333;
+}
+.company-name p {
+  width: 70%;
+  text-align: center;
+  display: block;
+  background-color: #ccc;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.quali-body p {
+  width: 70%;
+  text-align: center;
+  display: block;
+  background-color: #ededed;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.testi {
+  width: 80%;
+  text-align: center;
+  display: block;
+  background-color: #ededed;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+.testi p {
+  text-align: left;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.testi blockquote {
+  background-color: #005D7D;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.rich-text a {
+  color: #D6DF23;
+}
+.rich-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.rich-text h6 {
+  font-size: 14px;
+}
+#logo.rich-text h3 {
+  line-height: 15px;
+}
+#email-address.rich-text {
+  margin-top: 25px;
+}
+#C2f6421.rich-text {
+  margin-top: -25px;
+}
+#C2f6421.rich-text h6 {
+  color: #07695C;
+  font-size: 14px;
+}
+#hero-carousel.carousel {
+  border-radius: 5px;
+  margin-bottom: -10px;
+}
+#hero-carousel.carousel img {
+  border-radius: 5px;
+}
+#hero-carousel.carousel h3 {
+  text-align: center;
+  color: #9D080A;
+  line-height: 15px;
+  font-weight: bold;
+}
+#hero-carousel.carousel p {
+  text-align: center;
+  line-height: 18px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+#hero-carousel .carousel-caption {
+  background-color: rgba(255,255,255,0.8);
+}
+#contact-body.section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#contact-button.image img:hover {
+  content: url(http://www.flatpackprofessionals.com.au/_img?url=b47fbfc5-0802-14b6-6e67-52b13f9986f7);
+}
+#contact-button.image img {
+  float: left;
+}
+#service.heading h1 {
+  margin-top: 30px;
+  color: #333;
+  background-color: none;
+  box-shadow: none;
+}
+#gallery-button.image img:hover {
+  content: url(http://www.flatpackprofessionals.com.au/_img?url=27dc0a7c-1516-255e-dc2e-52b13e2fb8b3);
+}
+#gallery-button.image img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#call.heading h2 {
+  text-align: center;
+}
+#C59d94b.responsive-menu {
+  background-color: #D6DF23;
+}
+#services.heading h2 {
+  text-align: center;
+}
+#quote-right.section {
+  padding-right: 5%;
+}
+#last-quali.quali-body {
+  margin-bottom: 30px;
+}
+.company-name h3 {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #005D7D;
+  box-shadow: 1px 1px 10px 1px #005D7D;
+}
+.company-name h2 {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+  background-color: #005D7D;
+  box-shadow: 1px 1px 10px 1px #005D7D;
+}
+.highlight-box {
+  background-color: rgba(0,0,0,0.09);
+  margin-top: -10px;
+}
+.heading h1 {
+  color: #005D7D;
+  box-shadow: 0px 0px 10px 1px #333;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+.heading h3 {
+  text-align: center;
+}
+#logo.image img {
+  height: 150px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 40px;
+}
+.feature-grid .filter li {
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.feature-grid .filter li a {
+  color: #333;
+  text-transform: uppercase;
+}
+.feature-grid .item-box__img img {
+  height: 200px;
+}
+.feature-grid ul li {
+  padding-bottom: 0px;
+  padding: 0px;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.feature-grid {
+  text-align: center;
+}
+#service-grid.feature-grid h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#service-grid.feature-grid {
+  margin-bottom: 40px;
+}
+#quote-left.section {
+  padding-left: 5%;
+  margin-bottom: 30px;
+}
+#footer-links.rich-text {
+  color: #D6DF23;
+}
+#about-us-header.heading h2 {
+  text-align: center;
+}
+.feature-grid-x .filter li {
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.feature-grid .filter li a {
+  color: #333;
+  text-transform: uppercase;
+}
+.feature-grid-x ul li {
+  padding-bottom: 0px;
+  padding: 0px;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.feature-grid-x {
+  text-align: center;
+}
+.item-box__img img {
+  height: 200px;
+  width: 90%;
+}
+.buttons img {
+  width: 150px;
+}
+.contact-icons img {
+  height: 50px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+#MOB29316753412.responsive-menu {
+  background-color: #0F314D;
+}
+#home-body.row-fluid {
+  margin-top: -20px;
+  background-color: #ededed;
+}
+.button a.btn {
+  color: white;
+  font-weight: 300;
+  background-color: #07695C;
+}
+#last-block.testi {
+  margin-bottom: 50px;
+}
+#message.heading h2 {
+  text-align: center;
+}
+#left-wing.rich-text {
+  border-bottom: dashed 2px #1461A7;
+  margin-top: 50px;
+}
+#phone.contact-icons img {
+  padding-right: 15px;
+}
+#phone-number.rich-text {
+  margin-top: 10px;
+}
+#contact-front.heading h1 {
+  margin-top: 30px;
+  color: #333;
+  background-color: none !important;
+  box-shadow: none;
+}
+#MOB405241e1c0.form-constructor input {
+  width: 100%;
+}
+#MOB405241e1c0.form-constructor textarea {
+  width: 100%;
+}
+.navbar {
+  text-align: center;
+}
+#MOB29316753412.navbar {
+  text-align: inherit;
+}
+#MOB29316753412.responsive-menu .nav li a {
+  text-align: center;
+}
+body {
+  background-color: #ffffff;
+}
