@@ -618,10 +618,10 @@ p {
   box-shadow: none;
 }
 #MOB405241e1c0.form-constructor input {
-  width: 70%;
+  width: 100%;
 }
 #MOB405241e1c0.form-constructor textarea {
-  width: 70%;
+  width: 100%;
 }
 .navbar {
   text-align: center;

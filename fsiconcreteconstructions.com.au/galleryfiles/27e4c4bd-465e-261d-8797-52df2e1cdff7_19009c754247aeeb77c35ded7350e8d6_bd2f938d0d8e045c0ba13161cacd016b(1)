@@ -704,3 +704,6 @@ h1 {
 #MOB203606b8b69.rich-text p {
   color: #000000;
 }
+#MOB31009d2e74.form-constructor {
+  text-align: center;
+}
