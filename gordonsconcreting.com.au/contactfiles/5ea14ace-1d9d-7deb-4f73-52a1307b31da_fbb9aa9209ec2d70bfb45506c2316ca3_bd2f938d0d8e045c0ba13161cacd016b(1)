@@ -573,13 +573,13 @@
   font-weight: bold;
 }
 #MOB3267b738c5.form-constructor input {
-  width: 70%;
+  width: 100%;
 }
 #MOB3267b738c5.form-constructor textarea {
-  width: 70%;
+  width: 100%;
 }
 #MOB3267b738c5.form-constructor button {
-  width: 30%;
+  width: 100%;
 }
 #MOB3267b738c5.form-constructor {
   text-align: center;
