@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
  
-    $email_to = "glen@gadecorators.com.au";
+    $email_to = "rgbuilder@tpg.com.au";
  
     function died($error) {
         // your error code can go here
